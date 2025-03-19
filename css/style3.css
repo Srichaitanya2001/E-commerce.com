@@ -1,0 +1,67 @@
+body {
+
+    line-height: 1;
+    margin: 1em;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h3.Working-col {
+    color: rgb(232, 9, 9);
+}
+th {
+    background-color: #001f3f;
+    color: #fff;
+    padding:8;
+}
+td {
+    border-top: 1px solid #eee;
+    padding:0;
+}
+input {
+    cursor: pointer;
+}
+/* Column types */
+th.missed-col {
+    background-color: #f00;
+}
+td.missed-col {
+    background-color: #ffecec;
+    color: #f00;
+    text-align: center;
+}
+.name-col {
+    text-align: left;
+}
+
+
+th.Presented-col {
+    background-color: rgb(0, 0, 0);
+}
+td.Presented-col {
+    background-color: #ffecec;
+    color: rgb(0, 13, 255);
+    text-align: center;
+}
+
+
+
+
+th.Attendance-col {
+    background-color: #f00;
+}
+td.Attendance-col {
+    background-color: #ffecec;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.name-col {
+    text-align: left;
+}
+
+/*........examples.............*/
+td.name-col {
+    background-color: #4fca80;
+  }
+  
+

@@ -1,0 +1,66 @@
+/* --------------Student_login----  */
+.login{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10px;
+  grid-gap: 10px;
+  margin: 10px;
+
+}
+
+
+.right{
+  background-color: rgb(0, 149, 255);
+  border-radius: 10px;
+}
+#form{
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+
+}
+#form input{
+    
+    padding: 12px 20px;
+    margin: 10px 100;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+#submit:hover{
+    background-color: rgb(204, 255, 0);
+    color: black;
+    border-radius: 50px;
+}
+
+.login_head{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: green;
+      color: white;
+  text-align: center;
+  padding: 20px;
+   border-radius: 200px;   
+}
+
+
+
+/*.....login center...*/
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
